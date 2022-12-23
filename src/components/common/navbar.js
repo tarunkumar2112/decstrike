@@ -23,7 +23,7 @@ import Insightss from './insights.png'
  
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <NavLink className='menu-item' to='/' isactive><img src={Buy} alt="menu"/ >Buy Stockes</NavLink>    
+      <NavLink className='menu-item' to='/' isactive><img src={Buy} alt="menu"/ >Explore</NavLink>    
       <NavLink className='menu-item' to='/orders'><img src={Orderss} alt="menu"/ >Orders</NavLink> 
       <NavLink className='menu-item' to='/insights'><img src={Insightss} alt="menu"/ >Insights</NavLink>  
       <NavLink className='menu-item' to='/history'><img src={History} alt="menu"/ >History</NavLink>       

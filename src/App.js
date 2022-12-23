@@ -11,6 +11,7 @@ import Orders from './components/pages/orders';
 import Insights from './components/pages/insights';
 import History from './components/pages/history';
 import Settings from './components/pages/settings';
+import Footer from './components/common/footer';
 
 function App() {
   const [btnstate, setbtnStates] = useState(false);
@@ -46,7 +47,9 @@ let toggleClasscheck = btnstate ? 'active' : null;
 
 </Routes>
 </div>
+<Footer />
 </BrowserRouter>
+
 </div>
    </>
   );

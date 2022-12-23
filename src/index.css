@@ -7,7 +7,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/**********mysustom***********/
+.wrapper img {
+  width: 11%;
+}
 
+.top-mover-card {
+  display: flex;
+}
+.overlay {
+  --gradient-color: rgb(255 255 255 / 0%), rgba(255, 255, 255, 0) !important;
+}
+
+.wrapper {
+  color: wheat;
+}
+
+/*********customend**********/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
