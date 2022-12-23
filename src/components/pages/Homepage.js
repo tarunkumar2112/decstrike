@@ -136,7 +136,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                 <div className='box-item'>
                     <div className='title'>
                         <h3>Z. KNIGHT</h3>
-                        <p>-5.49%</p>
+                        <p className='minus'>-5.49%</p>
                     </div>
                     <div className="graphs"><img src={Lowgraph}
                 alt='ray'
@@ -168,7 +168,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
 <div className='box-item'>
                     <div className='title'>
                         <h3>G. WILSON</h3>
-                        <p>-3.30%</p>
+                        <p className='minus'>-3.30%</p>
                     </div>
                     <div className="graphs"><img src={Lowgraph}
                 alt='ray'
@@ -184,14 +184,14 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
 <div className='box-item'>
                     <div className='title'>
                         <h3>Z. JONES </h3>
-                        <p>$8.36</p>
+                        <p className='minus'>-2.56%</p>
                     </div>
                     <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
                     <div className='url'>
-                        <a href='/'>-2.56%</a>
+                        <a href='/'>$8.36</a>
                     </div>
 
                 </div>
