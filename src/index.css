@@ -139,6 +139,7 @@ padding: 40px 68px;
   display: flex;
   margin-bottom: 30px;
   padding: 40px;
+  align-items: center;
 }
 .title h3 {
   font-family: 'Poppins';
@@ -156,8 +157,11 @@ padding: 40px 68px;
   font-weight: 500;
   font-size: 20px;
   line-height: 110%;
-  color: #FFFFFF;
+  color: #21CE99;
   margin: 0px;
+}
+p.minus {
+  color: #FF4D2D;
 }
 .graphs {
   padding: 0 30px;
@@ -234,7 +238,7 @@ color: #FFFFFF;
   background: #5DF291;
   box-shadow: 0px 0px 20px rgba(89, 239, 158, 0.5);
   border-radius: 60px;
-  width: 358px;
+  width: 100%;
   height: 63px;
   display: flex;
   justify-content: center;
@@ -306,9 +310,34 @@ dic.butn-flex .btns:nth-child(1) {
 button.btn.btn-primary.mb-5 {
   display: none;
 }
+.toggle-btnnull, .closednull {
+  display:none;
+}
+.toggle-btnnull i, .closednull i{
+  color: white;
+}
+.react-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ul.react-tabs__tab-list {
+  width: 49%;
+  padding: 0px;
+  list-style: none;
+}
+.test {
+  width: 49%;
+}
+.col2 {
+  width: 100%;
+}
 @media screen and (max-width: 1440px) {
+  .box-item {
+    padding: 20px;
+}
 .title h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 .title p {
   font-size: 16px;
@@ -318,14 +347,57 @@ button.btn.btn-primary.mb-5 {
   height: auto;
 }
 .sticky-nav {
-  max-width: 200px;
+  max-width: 300px;
 }
 .contactsection {
-  margin-left: 200px;
+  margin-left: 300px;
 }
 }
 
 @media screen and (max-width:999px) {
+
+.closedactive {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  top: 28px;
+  left: 375px;
+}
+
+.closedactive  i {
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px !important;
+  background: linear-gradient(270deg, rgba(91, 244, 154, 0.9) 0%, rgba(91, 244, 154, 0.3) 0%, rgba(190, 247, 213, 0) 99.56%);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+.closedactive  i{color:white;}
+.closedactive {
+  display: block;
+}
+.toggle-btnnull {
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px !important;
+  background: linear-gradient(270deg, rgba(91, 244, 154, 0.9) 0%, rgba(91, 244, 154, 0.3) 0%, rgba(190, 247, 213, 0) 99.56%);
+  width: 45px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.main-home .row {
+  justify-content: flex-end;
+}
   .toggle-btn {
     display: block;
     margin-left: 6px;
@@ -423,14 +495,53 @@ dic.butn-flex .btns:nth-child(1) {
 .input {
   width: 50%;
 }
-.icon-pic {
+/* .icon-pic {
   width: 50%;
   justify-content: flex-end;
+} */
+.xtrahide {
+  display: none;
+}
+.xtrashow {
+  display: block;
+  padding: 0 15px;
+}
+.input input {
+  width: 100%;
+  height: 40px;
+}
+.input {
+  width: 100%;
+  
+}
+.box-item {
+  padding: 20px;
+}
+.url {
+  margin: 20px auto 0;
+}
+.xtrashow {
+  display: block;
+  top: 87px;
+  position: absolute;
+  right: 0px;
+  /* background: white; */
+}
+.input input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #80808030;
+}
+.toggle-btn i.fa.fa-search {
+  margin: 0px;
+  position: static;
 }
   .contactsection {
     padding: 20px 15px;
     /* width: 100%; */
     margin-left: 0;
+    z-index: -1;
+    position: relative;
 }
 
 .col1-coins, .col2 {
@@ -440,10 +551,13 @@ dic.butn-flex .btns:nth-child(1) {
   width: 100%;
 }
 }
-@media screen and (max-width:599px) {
-  .sticky-nav img.imgs {
-    width: 100%;
+@media screen and (max-width:800px) {
+ul.react-tabs__tab-list, .test {
+  width: 100%;
 }
+}
+@media screen and (max-width:599px) {
+
 .sticky-nav {
   /* position: static; */
   max-width: 290px;
@@ -452,5 +566,12 @@ dic.butn-flex .btns:nth-child(1) {
 .me-auto.navbar-nav a {
   font-size: 16px;
   height: 50px;
+}
+.closedactive {
+  left: 265px;
+  top:20px;
+}
+.sticky-nav img.imgs {
+  width: 200px;
 }
 }
