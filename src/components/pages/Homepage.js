@@ -3,6 +3,7 @@ import Graph from './graph.png'
 import Ray from './ray.png'
 import Not from './not.png'
 import Pr from './pr.png'
+import Lowgraph from './lowgraph.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 
@@ -119,7 +120,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                         <h3>Z. WILSON</h3>
                         <p className="minus">-27.47%</p>
                     </div>
-                    <div className="graphs"><img src={Ray}
+                    <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
@@ -135,7 +136,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                         <h3>Z. KNIGHT</h3>
                         <p>-5.49%</p>
                     </div>
-                    <div className="graphs"><img src={Ray}
+                    <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
@@ -151,7 +152,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                         <h3>B. SHAPEN</h3>
                         <p className='minus'>-3.51%</p>
                     </div>
-                    <div className="graphs"><img src={Ray}
+                    <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
@@ -167,7 +168,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                         <h3>G. WILSON</h3>
                         <p>-3.30%</p>
                     </div>
-                    <div className="graphs"><img src={Ray}
+                    <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
@@ -183,7 +184,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                         <h3>Z. JONES </h3>
                         <p>$8.36</p>
                     </div>
-                    <div className="graphs"><img src={Ray}
+                    <div className="graphs"><img src={Lowgraph}
                 alt='ray'
                 /
                 ></div>
