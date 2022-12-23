@@ -22,7 +22,7 @@ let toggleClasscheck = btnstate ? 'active' : null;
   return (
    <>
    <div  onClick={handleclick} className={`toggle-btn${toggleClasscheck}`}><i class="fa-solid fa-bars"></i></div>
-<div  onClick={handleclick} className={`close${toggleClasscheck}`}><i class="fa fa-window-close" aria-hidden="true"></i>
+<div  onClick={handleclick} className={`closed${toggleClasscheck}`}><i class="fa fa-window-close" aria-hidden="true"></i>
 </div>
    <div className='main-wrapper'>
 <BrowserRouter>
