@@ -134,6 +134,7 @@ padding: 40px 68px;
   width: 49%;
 }
 .box-item {
+  cursor: pointer;
   background: radial-gradient(104.81% 457.29% at 0% 0%, rgba(73, 0, 89, 0.5) 0%, rgba(41, 63, 141, 0.5) 95.76%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   border-radius: 20px;
   display: flex;
@@ -332,6 +333,13 @@ ul.react-tabs__tab-list {
 .col2 {
   width: 100%;
 }
+.sticky-nav {
+  z-index: 9999999 !important;
+}
+.closedactive {
+  z-index: 99999999 !important;
+}
+.sticky-nav i{cursor:pointer;}
 @media screen and (max-width: 1440px) {
   .box-item {
     padding: 20px;
@@ -540,8 +548,7 @@ dic.butn-flex .btns:nth-child(1) {
     padding: 20px 15px;
     /* width: 100%; */
     margin-left: 0;
-    z-index: -1;
-    position: relative;
+
 }
 
 .col1-coins, .col2 {
