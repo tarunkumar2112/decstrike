@@ -4,8 +4,6 @@ import './App.css';
 import Homepage from './components/pages/Homepage'
 import Buystock from './components/pages/Buystock'
 import Navbar from './components/common/navbar'
-
-// import Footer from './components/common/footer'
 import Pending from './components/pages/pending';
 import Orders from './components/pages/orders';
 import Insights from './components/pages/insights';

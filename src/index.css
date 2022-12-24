@@ -9,11 +9,15 @@ body {
 }
 /**********mysustom***********/
 .wrapper img {
-  width: 11%;
+  width: 100%;
 }
 
 .top-mover-card {
   display: flex;
+  justify-content: space-between;
+}
+.top-mover-link {
+  width: 86%;
 }
 .overlay {
   --gradient-color: rgb(255 255 255 / 0%), rgba(255, 255, 255, 0) !important;
@@ -22,7 +26,9 @@ body {
 .wrapper {
   color: wheat;
 }
-
+.ticker-athlete-image-div {
+  width: 11%;
+}
 /*********customend**********/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -597,4 +603,70 @@ ul.react-tabs__tab-list, .test {
 .sticky-nav img.imgs {
   width: 200px;
 }
+}
+
+.Marquee {
+  background: linear-gradient(-135deg, #008ed9, #8b00db);
+  width: 85vw;
+  box-sizing: border-box;
+  padding: 1em;
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.Marquee-content {
+  display: flex;
+  animation: marquee 10s linear infinite running;
+}
+.Marquee-content:hover {
+  animation-play-state: paused;
+}
+.Marquee-tag {
+  width: 200px;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background: rgba(255,255,255,0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.Marquee-tag:hover {
+  background: rgba(255,255,255,0.5);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+@-o-keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
 }
