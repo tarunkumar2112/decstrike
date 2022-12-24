@@ -361,7 +361,63 @@ ul.react-tabs__tab-list {
 .closedactive {
   z-index: 99999999 !important;
 }
+
+
 .sticky-nav i{cursor:pointer;}
+
+/*********footer***********/
+
+.wrapper {
+	color: wheat;
+	width: 200px;
+	margin: 0 0.5em;
+	padding: 0.5em;
+	background: rgba(255,255,255,0.1);
+	display: -webkit-inline-box;
+	display: -moz-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-o-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-o-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+.ticker-athlete-image-div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.top-mover-card {
+	display: flex;
+	justify-content: space-between;
+}
+.ticker-athlete-image-div {
+	width: 20%;
+}
+.top-mover-link {
+	width: 73%;
+}
+
+/*********end************/
+
 @media screen and (max-width: 1440px) {
   .box-item {
     padding: 20px;
