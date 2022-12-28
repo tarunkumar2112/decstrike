@@ -26,10 +26,10 @@ import Vec from './Vector(12).png'
       <Nav className="me-auto">
       <NavLink className='menu-item' to='/portfolio' ><img src={Vec} alt="menu"/ >My Portfolio</NavLink>    
       <NavLink className='menu-item' to='/' isactive><img src={Buy} alt="menu"/ >Explore</NavLink>    
-      <NavLink className='menu-item' to='/'><img src={Orderss} alt="menu"/ >Orders</NavLink> 
-      <NavLink className='menu-item' to='/'><img src={Insightss} alt="menu"/ >Insights</NavLink>  
-      <NavLink className='menu-item' to='/'><img src={History} alt="menu"/ >History</NavLink>       
-      <NavLink className='menu-item' to='/'><img src={Settingss} alt="menu"/ >Settings</NavLink>  
+      <NavLink className='menu-item' to='/orders'><img src={Orderss} alt="menu"/ >Orders</NavLink> 
+      <NavLink className='menu-item' to='/insights'><img src={Insightss} alt="menu"/ >Insights</NavLink>  
+      <NavLink className='menu-item' to='/history'><img src={History} alt="menu"/ >History</NavLink>       
+      <NavLink className='menu-item' to='/settings'><img src={Settingss} alt="menu"/ >Settings</NavLink>  
       </Nav>
     </Navbar.Collapse>
   </Container>
