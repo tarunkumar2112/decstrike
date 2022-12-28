@@ -11,9 +11,9 @@ body {
 h1.price {
   padding-top: 0;
 }
-.main-container.portfolio-wraper {
+/* .main-container.portfolio-wraper {
   height: 100vh;
-}
+} */
 
 .portfolio-wraper h1 {
   color: white;
@@ -103,7 +103,7 @@ padding: 40px 68px;
   display: block;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -195,11 +195,11 @@ padding: 40px 68px;
   font-weight: 500;
   font-size: 20px;
   line-height: 110%;
-  color: #21CE99;
+  color: #21CE99 !important;
   margin: 0px;
 }
 p.minus {
-  color: #FF4D2D;
+  color: #FF4D2D !important;
 }
 .graphs {
   padding: 0 30px;
@@ -359,7 +359,11 @@ button.btn.btn-primary.mb-5 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-ul.react-tabs__tab-list {
+.portfolio-row .box-sizes img, .graph img {
+  width: 100%;
+  cursor: pointer;
+}
+.react-tabs__tab-list {
   width: 49%;
   padding: 0px;
   list-style: none;
@@ -379,7 +383,131 @@ ul.react-tabs__tab-list {
 
 
 .sticky-nav i{cursor:pointer;}
+.box-sizes.stats h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+h1.price {
+  font-size: 60px !important;
+}
+.box-sizes.stats p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.graphone {
+  margin: 30px 0;
+}
+.graphone img{
+ cursor:pointer;
+}
+.buying h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.buying h2 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
 
+color: #FFFFFF;
+}
+a.learn-more {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 167%;
+  text-decoration-line: underline;
+  color: #59EF9E;
+}
+.box-sizes, .box-small, .bytype{
+  margin-bottom: 30px;
+}
+.transaction.stats ul li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 167%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.transaction ul {
+  padding: 0px !important;
+  margin: 0px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.heading h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.box-small h2{   
+   font-size: 40px; 
+  color:white;
+  }
+  .colsml {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 48%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+.colsml .graphs {
+  padding: 0;
+  width: 30%;
+}
+.colsml .title {
+  width: 70%;
+}
+.colsml h3,   .colsml  p{
+  color:black;
+}
+.colsml .graphs img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.box-small h4{
+  font-size: 25px;
+    color: white
+}
+.heading-top {
+  margin-bottom: 30px;
+}
+.transaction ul li:hover span.price-amt {
+  color: #59EF9E;
+  cursor:pointer;
+}
+.sm-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 /*********footer***********/
 
 .wrapper {
@@ -444,7 +572,12 @@ div#foot {
   font-size: 14px;
   line-height: 26px;
 }
-
+.heading img {
+  cursor: pointer;
+}
+.graphs img {
+  cursor: pointer;
+}
 /*********end************/
 
 @media screen and (max-width: 1440px) {
@@ -668,6 +801,23 @@ dic.butn-flex .btns:nth-child(1) {
 @media screen and (max-width:800px) {
 ul.react-tabs__tab-list, .test {
   width: 100%;
+}
+.react-tabs__tab-list {
+  width: 100%;
+}
+.stats {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.colsml {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.colsml:last-child {
+  margin-bottom: 0px;
+}
+.portfolio-row {
+  margin-top: 100px;
 }
 }
 @media screen and (max-width:599px) {
