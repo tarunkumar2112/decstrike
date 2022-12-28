@@ -9,6 +9,7 @@ import Orderss from './order.png'
 import Settingss from './setting.png'
 import History from './history.png'
 import Insightss from './insights.png'
+import Vec from './Vector(12).png'
 
    const navbar = () => {
   return (
@@ -23,6 +24,7 @@ import Insightss from './insights.png'
  
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
+      <NavLink className='menu-item' to='/portfolio' ><img src={Vec} alt="menu"/ >My Portfolio</NavLink>    
       <NavLink className='menu-item' to='/' isactive><img src={Buy} alt="menu"/ >Explore</NavLink>    
       <NavLink className='menu-item' to='/orders'><img src={Orderss} alt="menu"/ >Orders</NavLink> 
       <NavLink className='menu-item' to='/insights'><img src={Insightss} alt="menu"/ >Insights</NavLink>  

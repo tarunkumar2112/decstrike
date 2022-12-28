@@ -10,6 +10,7 @@ import Insights from './components/pages/insights';
 import History from './components/pages/history';
 import Settings from './components/pages/settings';
 import Footer from './components/common/footer';
+import Portfolio from './components/pages/portfolio';
 
 function App() {
   const [btnstate, setbtnStates] = useState(false);
@@ -34,7 +35,6 @@ let toggleClasscheck = btnstate ? 'active' : null;
 
 <div className='contactsection'>
 <Routes>
-
 <Route path='/' element={<Homepage/>} />
 <Route path='/buystock' element={<Buystock/>} />
 <Route path='/pending' element={<Pending/>} />
@@ -42,6 +42,8 @@ let toggleClasscheck = btnstate ? 'active' : null;
 <Route path='/insights' element={<Insights/>} />
 <Route path='/history' element={<History/>} />
 <Route path='/settings' element={<Settings/>} />
+<Route path='/portfolio' element={<Portfolio />} />
+
 
 </Routes>
 </div>

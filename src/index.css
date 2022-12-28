@@ -8,6 +8,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 /**********mysustom***********/
+h1.price {
+  padding-top: 0;
+}
+.main-container.portfolio-wraper {
+  height: 100vh;
+}
+
+.portfolio-wraper h1 {
+  color: white;
+  font-size: 45px;
+  padding-top: 100px;
+  line-height: 66px;
+}
+
+
 .wrapper img {
   width: 100%;
 }
