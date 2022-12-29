@@ -464,7 +464,10 @@ a.learn-more {
   color: #FFFFFF;
 }
 .box-small h2{   
-   font-size: 40px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
   color:white;
   }
   .colsml {
@@ -477,12 +480,33 @@ a.learn-more {
     border-radius: 20px;
     align-items: center;
 }
+.colsml .title h3 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+}
+.green p, .red p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 119%;
+}
+p.high, p.low{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 137%;
+}
 .colsml .graphs {
   padding: 0;
-  width: 30%;
+  width: 46%;
 }
 .colsml .title {
-  width: 70%;
+  width: 60%;
 }
 .colsml h3,   .colsml  p{
   color:black;
@@ -493,8 +517,11 @@ a.learn-more {
   height: auto;
 }
 .box-small h4{
-  font-size: 25px;
-    color: white
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color:white;
 }
 .heading-top {
   margin-bottom: 30px;
@@ -643,7 +670,7 @@ div#foot {
   top: 30px;
   left: 15px;
 }
-.main-home .row {
+.main-home .row, .main-container.portfolio-wraper .row {
   justify-content: flex-end;
 }
   .toggle-btn {
@@ -816,12 +843,33 @@ ul.react-tabs__tab-list, .test {
 .colsml:last-child {
   margin-bottom: 0px;
 }
-.portfolio-row {
-  margin-top: 100px;
-}
+
+
 }
 @media screen and (max-width:599px) {
-
+  .box-sizes.stats h1 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.buying h3, .heading h2 {
+  font-size: 25px;
+}
+h1.price, .buying h2 {
+  font-size: 40px !important;
+}
+.transaction.stats ul li {
+  font-size: 16px;
+}
+.stats {
+  padding: 20px;
+}
+.box-small h2 {
+  font-size: 25px;
+  line-height: 26px;
+}
+.box-small h4 {
+  font-size: 16px;
+}
 .sticky-nav {
   /* position: static; */
   max-width: 290px;
