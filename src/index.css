@@ -629,6 +629,35 @@ div#foot {
 }
 }
 
+@media screen and (max-width:1199px) {
+.box-sizes.stats h1 {
+	font-size: 30px;
+	line-height: 45px;
+}
+.buying h2, h1.price {
+	font-size: 40px !important;
+}
+.buying h3, .heading h2 {
+	font-size: 25px;
+}
+.transaction.stats ul li {
+	font-size: 16px;
+}
+.box-small h2 {
+	font-size: 25px;
+	line-height: 26px;
+}
+.box-small h4 {
+	font-size: 16px;
+}
+.colsml .title h3 {
+	font-size: 18px;
+	line-height: 133%;
+}
+.buying h3, .heading h2 {
+	font-size: 25px;
+}
+}
 @media screen and (max-width:999px) {
 
 .closedactive {
