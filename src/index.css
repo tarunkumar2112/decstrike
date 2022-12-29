@@ -133,7 +133,7 @@ padding: 40px 68px;
 .row {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   margin-bottom: 60px;
 }
@@ -630,9 +630,15 @@ div#foot {
 }
 
 @media screen and (max-width:1199px) {
+  .react-tabs__tab-list {
+    width: 100%;
+  }
+  .transaction.stats {
+    margin-bottom: 30px;
+  }
 .box-sizes.stats h1 {
-	font-size: 30px;
-	line-height: 45px;
+	font-size: 26px !important;
+	line-height:36px;
 }
 .buying h2, h1.price {
 	font-size: 40px !important;
