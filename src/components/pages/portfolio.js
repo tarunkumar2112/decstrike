@@ -44,7 +44,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
                 <h1>Portfolio Value</h1>
                 <h1 className='price'>$2,223.74</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat diam nec quam molestie vulputate. Nullam ac maximus tortor, eget lobortis elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat diam nec quam molestie vulputate.  
                 </p>
                <div className='graphone'>
                 <img  
