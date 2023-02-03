@@ -48,7 +48,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
         </div>
     
   <div className='container explorepage-container'>
-    <div className='row title-raed'><div className='row-title'><h2>Trending Themes</h2></div><div className='read'><a href='#' alt='read'>Read More</a></div></div>
+    <div className='row title-raed'><div className='row-title'><h2>Trending Themes</h2></div></div>
     <div className='row hot-items'>
         <div className='roundcol'>
            <div className='icon'><img src={iconplay} /></div>
@@ -79,7 +79,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
            <div className='title'>Buy the dip</div>
         </div>
     </div>
-    <div className='row title-raed'><div className='row-title'><h2>Trending Players</h2></div><div className='read'><a href='#' alt='read'>Read More</a></div></div>
+    <div className='row title-raed'><div className='row-title'><h2>Trending Players</h2></div></div>
 
     <div className='row trending-items'>
 <div className='user-profile cols'>
