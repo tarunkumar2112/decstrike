@@ -14,10 +14,12 @@ import Portfolio from './components/pages/portfolio';
 
 function App() {
   const [btnstate, setbtnStates] = useState(false);
+  //function for toggle in react using usestate 
 function handleclick(){
-  //
+  //setbtnStates in usestate
   setbtnStates(btnstate => !btnstate);
 }
+//condition for class if else
 let toggleClasscheck = btnstate ? 'active' : null;
   return (
    <>
