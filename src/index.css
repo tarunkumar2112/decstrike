@@ -975,7 +975,9 @@ dic.butn-flex .btns:nth-child(1) {
 }
 }
 @media screen and (max-width:800px) {
-
+  .explorepage-container .title {
+    font-size: 16px;
+}
 ul.react-tabs__tab-list, .test {
   width: 100%;
 }
