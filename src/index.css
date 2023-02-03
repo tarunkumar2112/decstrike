@@ -606,6 +606,89 @@ div#foot {
   cursor: pointer;
 }
 /*********end************/
+/***********3-2-2023*******/
+.explorepage-container h2 {
+  color: #FFFFFF;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 167%;
+}
+.explorepage-container .title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 167%;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.explorepage-container .roundcol {
+  text-align: center;
+  cursor: pointer;
+}
+.explorepage-container .icon {
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+.explorepage-container .read a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 167%;
+  color: #00BE4C;
+  text-decoration: none;
+}
+.explorepage-container .user-profile {
+  background: #ffffff17;
+  border-radius: 15px;
+  width: 18%;
+  padding:  20px 10px  !important;
+  text-align: center;
+  cursor:pointer;
+}
+.explorepage-container .imguser {
+  margin-bottom: 10px;
+}
+.explorepage-container .titleuser {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 167%;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: center;
+}
+.explorepage-container .row {
+  margin-bottom: 20px;
+}
+.trending-items, .hot-items {
+  margin-bottom: 60px !important;
+}
+.explorepage-container span.updown {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 167%;
+  align-items: center;
+  color: #00BE4C;
+}
+.explorepage-container .userdata img {
+  margin-right: 10px;
+}
+.explorepage-container .roundcol:hover .title{
+  color: #00BE4C;
+}
+.explorepage-container  .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*********close**********/
 
 @media screen and (max-width: 1440px) {
   .box-item {
@@ -626,6 +709,10 @@ div#foot {
 }
 .contactsection {
   margin-left: 300px;
+  width:100%;
+}
+body {
+  overflow-x: hidden;
 }
 }
 
@@ -665,7 +752,34 @@ div#foot {
 }
 }
 @media screen and (max-width:999px) {
-
+  .explorepage-container .read {
+    text-align: center;
+    width: 100%;
+}
+  .explorepage-container .row-title {
+    width: 100%;
+    text-align: center;
+}
+ .explorepage-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+  .explorepage-container .user-profile {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.explorepage-container .row.hot-items {
+  justify-content: space-between !important;
+}
+.explorepage-container .roundcol {
+  width: 48% !important;
+  margin-bottom: 30px;
+  background: #ffffff17;
+  padding: 20px 10px !important;
+}
+.explorepage-container  .row {
+  flex-wrap: wrap;
+}
 .closedactive {
   display: block;
   position: absolute;
@@ -861,6 +975,7 @@ dic.butn-flex .btns:nth-child(1) {
 }
 }
 @media screen and (max-width:800px) {
+
 ul.react-tabs__tab-list, .test {
   width: 100%;
 }
@@ -882,6 +997,9 @@ ul.react-tabs__tab-list, .test {
 
 }
 @media screen and (max-width:599px) {
+  .explorepage-container h2 {
+    font-size: 20px;
+}
   .box-sizes.stats h1 {
     font-size: 30px;
     line-height: 45px;
