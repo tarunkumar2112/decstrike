@@ -45,16 +45,20 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
         </div>
    <div className='row'>
 <div className='col imgsection'>
+<div className='image-box-col'>
   <img src={Main}
   alt='main-marketplace' 
   /
   > 
+  </div>
+  <div className='text-box-col'>
   <p>
   Dig into insights, updates, and tricksof the trade from our team of expert analysts.
   </p>
+  </div>
 </div>
    </div>
-   <div className='row'>
+   <div className='row top-section-box'>
 <div className='col left-sec'>
   <img src={Game} alt="gamer" />
 </div>
@@ -76,7 +80,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
   </div> 
   <div className='main-container second-section'>
 <div className='row section-two'>
-  <div className='col left same'>
+  <div className='bagckround'><div className='col left same'>
 <h4>Dexstrike Case Study</h4>
 <p>Miami Dolphins QBs: 2022</p>
 <div className='group-people'>
@@ -96,6 +100,10 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
   </div>
 </div>
   </div>
+  <div className='texts'><p>Numerous opportunities to profit over short periods of time</p><a href="#">Read More</a></div>
+
+  </div>
+  <div className='bagckround'>
   <div className='col right same'>
   <h4>Dexstrike Case Study</h4>
 <p>Miami Dolphins QBs: 2022</p>
@@ -115,6 +123,10 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
     </div>
   </div>
 </div>
+
+    </div>
+    <div className='texts'><p>The QB battle between Matt Ryan and Sam Ehlinger has led to some CRAZY price movement</p><a href="#">Read More</a></div>
+
     </div>
 </div>
   </div>
