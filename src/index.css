@@ -1015,6 +1015,7 @@ body {
 }
 
 @media screen and (max-width:1199px) {
+
   .left-sec {
     width: 100%;
     margin-right: 0;
@@ -1037,11 +1038,10 @@ body {
   .lefty img {
     width: 100% !important;
     border-radius: 18px;
-  }
-  .news-col {
-    border-radius: 29px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0px;
+}
 
-  }
   .right-sec {
     width: 100%;
     padding: 0px;
@@ -1121,6 +1121,9 @@ body {
 }
 
 @media screen and (max-width:999px) {
+  .listing {
+    width: 100%;
+}
   .insight-page-main-class .row {
     margin-bottom: 50px;
     margin-left: 0px;
@@ -1134,9 +1137,7 @@ body {
     margin-left: 0px !important;
 margin-right: 0px !important;
   }
-  .news-col {
-    border-radius: 53px;
-  }
+ 
   .imgsection img {
     width: auto;
   }

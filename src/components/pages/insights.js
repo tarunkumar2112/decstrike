@@ -2,13 +2,12 @@ import React,{ useState } from 'react'
 import Main from '../images/marketmnain.png'
 import Not from './not.png'
 import Pr from './pr.png'
-import Game from '../images/gamer.png'
 import Date from '../images/date.png'
 import Us from '../images/us.png'
 import Tag from '../images/tag.png'
 import Arrow from '../images/arrowss.png'
 import Pro from '../images/proplayer.png'
-import Gs from '../images/imagegame.png'
+import Gs from '../images/Maskgroup.png'
 
 
 
@@ -60,7 +59,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
    </div>
    <div className='row top-section-box'>
 <div className='col left-sec'>
-  <img src={Game} alt="gamer" />
+  <img src={Gs} alt="gamer" />
 </div>
 <div className='col right-sec'>
   <div className='main-date-section'>
