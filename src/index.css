@@ -612,14 +612,14 @@ div#foot {
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
+font-size: 25px;
 line-height: 167%;
 }
 .explorepage-container .title {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 11px;
   line-height: 167%;
   color: white;
   width: 100%;
@@ -628,6 +628,10 @@ line-height: 167%;
 .explorepage-container .roundcol {
   text-align: center;
   cursor: pointer;
+  width: 13%;
+}
+.explorepage-container .icon img {
+  width: 100%;
 }
 .explorepage-container .icon {
   margin-right: 0;
@@ -657,7 +661,7 @@ line-height: 167%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 11px;
   line-height: 167%;
   align-items: center;
   color: #FFFFFF;
@@ -673,13 +677,17 @@ line-height: 167%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 10px;
   line-height: 167%;
   align-items: center;
   color: #00BE4C;
 }
+.imguser img {
+  width: 80px;
+  height: 80px;
+}
 .explorepage-container .userdata img {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .explorepage-container .roundcol:hover .title{
   color: #00BE4C;
@@ -687,6 +695,7 @@ line-height: 167%;
 .explorepage-container  .row {
   margin-left: 0px;
   margin-right: 0px;
+  flex-wrap: wrap
 }
 /*********close**********/
 
@@ -709,7 +718,10 @@ line-height: 167%;
 }
 .contactsection {
   margin-left: 300px;
-  width:100%;
+  max-width:100%;
+}
+.explorepage-container {
+  max-width: 100% !important;
 }
 body {
   overflow-x: hidden;
@@ -717,6 +729,16 @@ body {
 }
 
 @media screen and (max-width:1199px) {
+  .explorepage-container .roundcol {
+    width: 20%;
+    margin-bottom: 20px;
+}
+.explorepage-container .icon img {
+  width: auto;
+}
+.explorepage-container  .hot-items {
+  justify-content: unset;
+}
   .react-tabs__tab-list {
     width: 100%;
   }

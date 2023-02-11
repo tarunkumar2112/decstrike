@@ -33,7 +33,7 @@ let toggleClasscheck = btnstate ? 'show' : 'hide';
         <div  onClick={handleclick} className='toggle-btn'><i class="fa fa-search" aria-hidden="true"></i>
 </div>
             <div className={`input xtra${toggleClasscheck}`}>
-                <input type="search" value="search" />
+               <from> <input type="text" placeholder="search" /></from>
             </div></div>
             <div className='icon-pic'>
                 <div className='icon'><img src={Not}
